@@ -1,0 +1,27 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.fruit-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.fruit-list li {
+  margin: 10px;
+  text-align: center;
+}
+.Card{
+  border: 2px solid black;
+  font-size: 18px;
+  font-weight: 700;
+}
+h1:hover{
+  text-shadow: 2px 2px 2px gray;
+}
